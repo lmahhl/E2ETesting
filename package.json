@@ -1,0 +1,68 @@
+{
+  "name": "se",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "draft-js": "^0.10.5",
+    "draft.js": "^0.2.0",
+    "jss": "^9.8.7",
+    "jwt-decode": "^2.2.0",
+    "node-sass": "^4.11.0",
+    "radium": "^0.25.1",
+    "react": "^16.8.4",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-bootstrap-toggle": "^2.3.2",
+    "react-dom": "^16.8.4",
+    "react-images-upload": "^1.2.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-test-renderer": "^16.8.5",
+    "react-toastify": "^5.1.0",
+    "react-transition-group": "^4.0.0",
+    "reactstrap": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "scss-compile": "^0.1.7",
+    "semantic-ui-react": "^0.86.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "createdoc": "jsdoc src -r -d docs",
+    "test:coverage": "jest --verbose --coverage",
+    "test:e2e": "cypress open",
+    "tests:run": "cypress run --browser chrome --reporter mochawesome cypress/integration/app/ForgotPassword"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "cypress": "3.2.0",
+    "moment": "^2.21.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.3"
+  }
+}
